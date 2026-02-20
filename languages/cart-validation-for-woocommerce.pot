@@ -1,0 +1,385 @@
+# Copyright (C) 2026 Sahil Multani
+# This file is distributed under the GPL-3.0+.
+msgid ""
+msgstr ""
+"Project-Id-Version: Cart Validation for WooCommerce 1.0.0\n"
+"Report-Msgid-Bugs-To: https://www.multidots.com/contact/\n"
+"POT-Creation-Date: 2026-02-20 09:10:00+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2026-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Sagar Jariwala <sagar.jariwala@multidots.com>\n"
+"Language-Team: Sagar Jariwala <sagar.jariwala@multidots.com>\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: India\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: grunt-wp-i18n 1.0.4\n"
+
+#: admin/class-cvfw-admin-rule-conditions.php:48
+msgid "Location"
+msgstr ""
+
+#: admin/class-cvfw-admin-rule-conditions.php:49
+msgid "Country"
+msgstr ""
+
+#: admin/class-cvfw-admin-rule-conditions.php:51
+msgid "Product"
+msgstr ""
+
+#: admin/class-cvfw-admin-rule-conditions.php:52
+msgid "Cart contains product"
+msgstr ""
+
+#: admin/class-cvfw-admin-rule-conditions.php:53
+msgid "Cart contains category"
+msgstr ""
+
+#: admin/class-cvfw-admin-rule-conditions.php:55
+msgid "User"
+msgstr ""
+
+#: admin/class-cvfw-admin-rule-conditions.php:56
+msgid "User role"
+msgstr ""
+
+#: admin/class-cvfw-admin-rule-conditions.php:69
+msgid "Equal to ( = )"
+msgstr ""
+
+#: admin/class-cvfw-admin-rule-conditions.php:70
+msgid "Not equal to ( != )"
+msgstr ""
+
+#: admin/class-cvfw-admin-rule-conditions.php:89
+msgid "Conditional Validation Rules"
+msgstr ""
+
+#: admin/class-cvfw-admin-rule-conditions.php:114
+#: includes/class-cvfw-post-types.php:46
+msgid "Add Rule"
+msgstr ""
+
+#: admin/class-cvfw-admin-rule-conditions.php:116
+msgid "Any Rule match"
+msgstr ""
+
+#: admin/class-cvfw-admin-rule-conditions.php:117
+msgid "All Rule match"
+msgstr ""
+
+#: admin/class-cvfw-admin-rule-conditions.php:134
+msgid "Block checkout when the conditions below are met. Add at least one rule."
+msgstr ""
+
+#: admin/class-cvfw-admin-rule-conditions.php:180
+#: admin/class-cvfw-admin.php:266 admin/class-cvfw-admin.php:509
+msgid "Delete"
+msgstr ""
+
+#: admin/class-cvfw-admin-rule-conditions.php:201
+#: admin/class-cvfw-admin.php:264
+msgid "Select countries..."
+msgstr ""
+
+#: admin/class-cvfw-admin-rule-conditions.php:208
+#: admin/class-cvfw-admin.php:262
+msgid "Search for a product..."
+msgstr ""
+
+#: admin/class-cvfw-admin-rule-conditions.php:223
+#: admin/class-cvfw-admin.php:263
+msgid "Search for a category..."
+msgstr ""
+
+#: admin/class-cvfw-admin-rule-conditions.php:235
+#: admin/class-cvfw-admin.php:243
+msgid "Guest (not logged in)"
+msgstr ""
+
+#: admin/class-cvfw-admin-rule-conditions.php:241
+#: admin/class-cvfw-admin.php:265
+msgid "Select user roles..."
+msgstr ""
+
+#: admin/class-cvfw-admin-rule-conditions.php:248
+msgid "Value"
+msgstr ""
+
+#: admin/class-cvfw-admin-rule-config.php:56
+msgid "Rule Configuration"
+msgstr ""
+
+#: admin/class-cvfw-admin-rule-config.php:81 admin/class-cvfw-admin.php:444
+msgid "Status"
+msgstr ""
+
+#: admin/class-cvfw-admin-rule-config.php:81
+msgid "Published = rule is active. Draft = rule is disabled."
+msgstr ""
+
+#: admin/class-cvfw-admin-rule-config.php:94 admin/class-cvfw-admin.php:442
+msgid "Start Date"
+msgstr ""
+
+#: admin/class-cvfw-admin-rule-config.php:94
+msgid "Optional. Rule is active from this date. Leave empty for no start limit."
+msgstr ""
+
+#: admin/class-cvfw-admin-rule-config.php:98 admin/class-cvfw-admin.php:443
+msgid "End Date"
+msgstr ""
+
+#: admin/class-cvfw-admin-rule-config.php:98
+msgid "Optional. Rule is active until this date. Leave empty for no end limit."
+msgstr ""
+
+#: admin/class-cvfw-admin-rule-config.php:102
+msgid "Error message"
+msgstr ""
+
+#: admin/class-cvfw-admin-rule-config.php:102
+msgid ""
+"Message shown when this rule blocks checkout. Leave empty to use the "
+"default message from settings."
+msgstr ""
+
+#: admin/class-cvfw-admin-rule-config.php:103
+msgid "Your cart contains items that cannot be purchased together."
+msgstr ""
+
+#: admin/class-cvfw-admin.php:142
+msgid "&larr; Back to list page"
+msgstr ""
+
+#: admin/class-cvfw-admin.php:165 admin/class-cvfw-admin.php:292
+msgid "General"
+msgstr ""
+
+#: admin/class-cvfw-admin.php:166 admin/class-cvfw-admin.php:293
+msgid "Error Messages"
+msgstr ""
+
+#: admin/class-cvfw-admin.php:167 admin/class-cvfw-admin.php:294
+msgid "Manage Rules"
+msgstr ""
+
+#: admin/class-cvfw-admin.php:280
+msgid "Cart Validation"
+msgstr ""
+
+#: admin/class-cvfw-admin.php:479
+msgid "Enabled"
+msgstr ""
+
+#: admin/class-cvfw-admin.php:481
+msgid "Disabled"
+msgstr ""
+
+#: admin/class-cvfw-admin.php:508
+msgid "Are you sure you want to permanently delete this rule?"
+msgstr ""
+
+#: admin/class-cvfw-admin.php:531 includes/class-cvfw-post-types.php:133
+msgid "%s rule updated."
+msgid_plural "%s rules updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/class-cvfw-admin.php:532 includes/class-cvfw-post-types.php:134
+msgid "%s rule not updated, somebody is editing it."
+msgid_plural "%s rules not updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/class-cvfw-admin.php:533 includes/class-cvfw-post-types.php:135
+msgid "%s rule permanently deleted."
+msgid_plural "%s rules permanently deleted."
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/class-cvfw-admin.php:534 includes/class-cvfw-post-types.php:136
+msgid "%s rule moved to the Trash."
+msgid_plural "%s rules moved to the Trash."
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/class-cvfw-admin.php:535 includes/class-cvfw-post-types.php:137
+msgid "%s rule restored from the Trash."
+msgid_plural "%s rules restored."
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/class-cvfw-admin.php:601
+#. translators: %s: Search query.
+msgid "Search results for: %s"
+msgstr ""
+
+#: admin/class-cvfw-admin.php:673
+msgid "General Settings"
+msgstr ""
+
+#: admin/class-cvfw-admin.php:675
+msgid ""
+"Configure cart validation behavior. You can define product, category, and "
+"user-based restrictions in upcoming sections."
+msgstr ""
+
+#: admin/class-cvfw-admin.php:679
+msgid "Enable Cart Validation"
+msgstr ""
+
+#: admin/class-cvfw-admin.php:680
+msgid "Enable cart validation rules"
+msgstr ""
+
+#: admin/class-cvfw-admin.php:686
+msgid "Stop at first validation error"
+msgstr ""
+
+#: admin/class-cvfw-admin.php:687
+msgid ""
+"When enabled, only the first validation error is shown. When disabled, all "
+"validation errors are collected and displayed."
+msgstr ""
+
+#: admin/class-cvfw-admin.php:709
+msgid "Default Error Messages"
+msgstr ""
+
+#: admin/class-cvfw-admin.php:711
+msgid ""
+"Customize the default message shown when cart validation fails. You can "
+"override this per rule when you add validation rules."
+msgstr ""
+
+#: admin/class-cvfw-admin.php:715
+msgid "Default validation error message"
+msgstr ""
+
+#: admin/class-cvfw-admin.php:716
+msgid "Shown when the cart fails validation and no rule-specific message is set."
+msgstr ""
+
+#: admin/class-cvfw-admin.php:719 includes/class-cvfw-activator.php:54
+msgid ""
+"Your cart contains items that cannot be purchased together. Please review "
+"the cart and remove incompatible items."
+msgstr ""
+
+#: admin/class-cvfw-admin.php:739 admin/class-cvfw-admin.php:780
+msgid "Permission denied."
+msgstr ""
+
+#: cart-validation-for-woocommerce.php:153
+msgid ""
+"Cart Validation for WooCommerce requires WooCommerce to be installed and "
+"active. You can download"
+msgstr ""
+
+#: cart-validation-for-woocommerce.php:156
+msgid "here."
+msgstr ""
+
+#: includes/class-cvfw-activator.php:37
+msgid ""
+"Cart Validation for WooCommerce requires WooCommerce to be installed and "
+"active."
+msgstr ""
+
+#: includes/class-cvfw-activator.php:38
+msgid "Error"
+msgstr ""
+
+#: includes/class-cvfw-post-types.php:43
+msgid "Validation Rules"
+msgstr ""
+
+#: includes/class-cvfw-post-types.php:44
+msgid "Validation Rule"
+msgstr ""
+
+#: includes/class-cvfw-post-types.php:47
+msgid "Add New Rule"
+msgstr ""
+
+#: includes/class-cvfw-post-types.php:48
+msgid "Edit Rule"
+msgstr ""
+
+#: includes/class-cvfw-post-types.php:49
+msgid "New Rule"
+msgstr ""
+
+#: includes/class-cvfw-post-types.php:50
+msgid "View Rule"
+msgstr ""
+
+#: includes/class-cvfw-post-types.php:51
+msgid "Search Rules"
+msgstr ""
+
+#: includes/class-cvfw-post-types.php:52
+msgid "No rules found"
+msgstr ""
+
+#: includes/class-cvfw-post-types.php:53
+msgid "No rules found in trash"
+msgstr ""
+
+#: includes/class-cvfw-post-types.php:58
+msgid "Cart validation rules for WooCommerce."
+msgstr ""
+
+#: includes/class-cvfw-post-types.php:109
+#: includes/class-cvfw-post-types.php:112
+msgid "Rule updated."
+msgstr ""
+
+#: includes/class-cvfw-post-types.php:110
+msgid "Custom field updated."
+msgstr ""
+
+#: includes/class-cvfw-post-types.php:111
+msgid "Custom field deleted."
+msgstr ""
+
+#: includes/class-cvfw-post-types.php:114
+msgid "Rule published."
+msgstr ""
+
+#: includes/class-cvfw-post-types.php:115
+msgid "Rule saved."
+msgstr ""
+
+#: includes/class-cvfw-post-types.php:118
+msgid "Rule draft updated."
+msgstr ""
+
+#: includes/class-cvfw.php:185
+msgid "View Cart Validation settings"
+msgstr ""
+
+#: includes/class-cvfw.php:185
+msgid "Settings"
+msgstr ""
+
+#: public/class-cvfw-public.php:161
+msgid ""
+"We are unable to process your order at this time. Please contact the "
+"administrator for further information."
+msgstr ""
+
+#: includes/class-cvfw-post-types.php:45
+msgctxt "Admin menu name"
+msgid "Validation Rules"
+msgstr ""

@@ -1,0 +1,11 @@
+parameters:
+    level: 0
+    paths:
+        - ./
+    excludePaths:
+        - vendor
+        - node_modules
+        - freemius
+        - dotstore-analytics
+    bootstrapFiles:
+        - vendor/php-stubs/woocommerce-stubs/woocommerce-stubs.php

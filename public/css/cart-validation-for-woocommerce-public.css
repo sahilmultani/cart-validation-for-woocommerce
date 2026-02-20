@@ -1,0 +1,10 @@
+/**
+ * Public styles for Cart Validation for WooCommerce
+ *
+ * @package Cart_Validation_For_WooCommerce
+ * @since 1.0.0
+ */
+
+.cvfw-cart-notice {
+	margin-bottom: 1em;
+}

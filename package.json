@@ -1,0 +1,24 @@
+{
+  "name": "dotstore-grunt-validation",
+  "version": "1.2.0",
+  "description": "This is automation script to validate plugin code",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "prepare": "husky install"
+  },
+  "author": "Sagar Jariwala <sagar.jariwala@multidots.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.4.1",
+    "grunt-checktextdomain": "^1.0.1",
+    "grunt-contrib-clean": "^2.0.0",
+    "grunt-contrib-compress": "^2.0.0",
+    "grunt-contrib-jshint": "^3.1.1",
+    "grunt-exec": "^3.0.0",
+    "grunt-jsvalidate": "^0.2.2",
+    "grunt-phpcs": "^0.4.0",
+    "grunt-phpstan": "^0.2.1",
+    "grunt-wp-i18n": "^1.0.3",
+    "husky": "^8.0.3"
+  }
+}

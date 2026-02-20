@@ -1,0 +1,136 @@
+/**
+ * Admin styles for Cart Validation for WooCommerce
+ * Tip icon on left of input
+ *
+ * @package Cart_Validation_For_WooCommerce
+ * @since 1.0.0
+ */
+
+.cvfw-admin-notice {
+	margin: 10px 0;
+}
+
+.cvfw-settings-section {
+	margin-bottom: 20px;
+}
+
+/* Add/Edit rule screen: back to list header */
+.cvfw-rule-screen-header {
+	margin-bottom: 0;
+}
+.cvfw-rule-screen-header .cvfw-back-to-list {
+	margin: 0 0 1em 0;
+}
+
+/* Rule Configuration: label + tip (tip on left side of input, like reference plugin) */
+.cvfw-rule-config-panel.panel .woocommerce_options_panel label {
+	position: relative;
+	padding-right: 20px;
+}
+.cvfw-rule-config-panel.panel .woocommerce_options_panel label .woocommerce-help-tip {
+	top: 20%;
+	position: absolute;
+	right: 5px;
+	margin: 0;
+}
+
+/* Status row: label+tip on left, checkbox on right */
+.cvfw-rule-config-panel .cvfw-status-row {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.cvfw-rule-config-panel .cvfw-status-row .cvfw-status-toggle {
+	margin-left: 0;
+}
+.cvfw-rule-config-panel .cvfw-status-row .cvfw-toggle {
+	margin: 0;
+}
+
+.cvfw-rule-config-panel .options_group p.form-field label {
+	vertical-align: middle;
+}
+
+.cvfw-status-toggle {
+	display: inline-flex;
+	align-items: center;
+}
+
+/* Rule conditions panel – keep content inside box */
+.cvfw-rule-conditions-panel,
+.cvfw-rule-conditions-panel * {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.cvfw-rule-conditions-panel .cvfw-conditions-header {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	margin-bottom: 12px;
+	flex-wrap: wrap;
+}
+
+.cvfw-rule-conditions-panel .cvfw-conditions-header #cvfw_rule_match {
+	min-width: 160px;
+}
+
+.cvfw-rule-conditions-panel .cvfw-conditions-content {
+	width: 100%;
+	overflow-x: auto;
+}
+
+.cvfw-rule-conditions-panel #cvfw-conditions-table {
+	width: 100%;
+	margin-top: 0;
+	border-collapse: collapse;
+	table-layout: fixed;
+}
+
+.cvfw-rule-conditions-panel .cvfw-condition-row td {
+	padding: 10px;
+	vertical-align: middle;
+}
+
+.cvfw-rule-conditions-panel .cvfw-condition-row .condition-type {
+	width: 22%;
+}
+
+.cvfw-rule-conditions-panel .cvfw-condition-row .condition-operator {
+	width: 18%;
+}
+
+.cvfw-rule-conditions-panel .cvfw-condition-row .condition-value {
+	width: 52%;
+	min-width: 0;
+}
+
+.cvfw-rule-conditions-panel .cvfw-condition-row .condition-value .select2-container,
+.cvfw-rule-conditions-panel .cvfw-condition-row .condition-value select {
+	max-width: 100%;
+}
+
+.cvfw-rule-conditions-panel .cvfw-condition-row .condition-actions {
+	width: 8%;
+	min-width: 50px;
+	text-align: center;
+	padding-left: 5px;
+}
+
+.cvfw-rule-conditions-panel .cvfw-condition-row .condition-actions .cvfw-remove-condition {
+	color: #b32d2e;
+	padding: 2px 6px;
+	min-height: 28px;
+	background-color: transparent;
+	border: none;
+}
+
+.cvfw-rule-conditions-panel .condition-actions .cvfw-remove-condition:hover {
+	color: #dc3232;
+}
+
+.cvfw-no-conditions-row td {
+	color: #646970;
+	font-style: italic;
+	padding: 10px;
+}
